@@ -1,11 +1,11 @@
 version: 0.6
 data_loading: TRUE
-cache_loading: TRUE
+cache_loading: FALSE
 recursive_loading: FALSE
 munging: TRUE
 logging: FALSE
-load_libraries: FALSE
-libraries: reshape, plyr, ggplot2, stringr, lubridate
-as_factors: TRUE
+load_libraries: TRUE
+libraries: tidyr, dplyr, ggplot2, stringr, rmongodb, lubridate, magrittr, purrr, scales, ggthemes, DT, d3heatmap, googlesheets
+as_factors: FALSE
 data_tables: FALSE
-attach_internal_libraries: FALSE
+attach_internal_libraries: TRUE
